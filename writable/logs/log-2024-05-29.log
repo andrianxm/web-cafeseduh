@@ -1,0 +1,146 @@
+CRITICAL - 2024-05-29 18:19:12 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-29 18:19:56 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-29 18:20:30 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-29 18:20:37 --> Error: Class "Locale" not found
+[Method: GET, Route: public/]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-29 18:21:21 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-29 16:53:59 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\projectuas\\ci4\\public\\index.php')
+CRITICAL - 2024-05-29 18:13:21 --> ArgumentCountError: Too few arguments to function App\Controllers\Coba::memek(), 0 passed in C:\xampp\htdocs\projectuas\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: coba/memek]
+in APPPATH\Controllers\Coba.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->memek()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\projectuas\\ci4\\public\\index.php')
+CRITICAL - 2024-05-29 18:15:15 --> ArgumentCountError: Too few arguments to function App\Controllers\Coba::memek(), 0 passed in C:\xampp\htdocs\projectuas\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: coba/memek]
+in APPPATH\Controllers\Coba.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->memek()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\projectuas\\ci4\\public\\index.php')
+CRITICAL - 2024-05-29 18:17:10 --> ArgumentCountError: Too few arguments to function App\Controllers\Coba::memek(), 0 passed in C:\xampp\htdocs\projectuas\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: coba/memek]
+in APPPATH\Controllers\Coba.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Coba->memek()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\projectuas\\ci4\\public\\index.php')
+CRITICAL - 2024-05-29 18:42:03 --> ErrorException: include(config/config.php): Failed to open stream: No such file or directory
+[Method: GET, Route: pages]
+in APPPATH\Views\home.php on line 2.
+ 1 APPPATH\Views\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(config/config.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\projectuas\\ci4\\app\\Views\\home.php', 2)
+ 2 APPPATH\Views\home.php(2): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projectuas\\ci4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Pages.php(9): view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\projectuas\\ci4\\public\\index.php')
+CRITICAL - 2024-05-29 18:42:23 --> ErrorException: include(modul/dashboard.php): Failed to open stream: No such file or directory
+[Method: GET, Route: pages]
+in APPPATH\Views\home.php on line 109.
+ 1 APPPATH\Views\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(modul/dashboard.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\projectuas\\ci4\\app\\Views\\home.php', 109)
+ 2 APPPATH\Views\home.php(109): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projectuas\\ci4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Pages.php(9): view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\projectuas\\ci4\\public\\index.php')
+CRITICAL - 2024-05-29 18:43:46 --> ErrorException: include(modul/login.php): Failed to open stream: No such file or directory
+[Method: GET, Route: pages]
+in APPPATH\Views\home.php on line 49.
+ 1 APPPATH\Views\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(modul/login.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\projectuas\\ci4\\app\\Views\\home.php', 49)
+ 2 APPPATH\Views\home.php(49): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projectuas\\ci4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Pages.php(9): view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\projectuas\\ci4\\public\\index.php')
+CRITICAL - 2024-05-29 18:49:36 --> ErrorException: Cannot redeclare redirect() (previously declared in C:\xampp\htdocs\projectuas\ci4\vendor\codeigniter4\framework\system\Common.php:848)
+[Method: GET, Route: pages/admin]
+in APPPATH\Views\config\config.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-29 18:51:15 --> ErrorException: Cannot redeclare redirect() (previously declared in C:\xampp\htdocs\projectuas\ci4\vendor\codeigniter4\framework\system\Common.php:848)
+[Method: GET, Route: pages/admin]
+in APPPATH\Views\config\config.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-29 18:51:27 --> ErrorException: ini_set(): Session ini settings cannot be changed when a session is active
+[Method: GET, Route: pages/admin]
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp\\htdocs\\projectuas\\ci4\\vendor\\codeigniter4\\framework\\system\\Session\\Handlers\\FileHandler.php', 74)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(74): ini_set('session.save_path', 'C:\\xampp\\htdocs\\projectuas\\ci4\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(688): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(666): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Config\BaseService.php(201): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\Common.php(998): CodeIgniter\Config\BaseService::get('session')
+10 SYSTEMPATH\Common.php(971): service('session')
+11 SYSTEMPATH\CodeIgniter.php(1062): session()
+12 SYSTEMPATH\CodeIgniter.php(542): CodeIgniter\CodeIgniter->storePreviousURL(Object(CodeIgniter\HTTP\SiteURI))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\projectuas\\ci4\\public\\index.php')

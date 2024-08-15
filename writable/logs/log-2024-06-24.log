@@ -1,0 +1,36 @@
+CRITICAL - 2024-06-24 16:58:59 --> ParseError: syntax error, unexpected token "=", expecting variable
+[Method: GET, Route: /]
+in APPPATH\Models\MenuModel.php on line 9.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\projectuas\\ci4\\vendor\\composer/../../app\\Models\\MenuModel.php')
+ 2 APPPATH\Controllers\users\User.php(12): Composer\Autoload\ClassLoader->loadClass('App\\Models\\MenuModel')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\users\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users\User))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\projectuas\\ci4\\public\\index.php')
+CRITICAL - 2024-06-24 16:58:59 --> ParseError: syntax error, unexpected token "=", expecting variable
+[Method: GET, Route: /]
+in APPPATH\Models\MenuModel.php on line 9.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\projectuas\\ci4\\vendor\\composer/../../app\\Models\\MenuModel.php')
+ 2 APPPATH\Controllers\users\User.php(12): Composer\Autoload\ClassLoader->loadClass('App\\Models\\MenuModel')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\users\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users\User))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\projectuas\\ci4\\public\\index.php')
+CRITICAL - 2024-06-24 16:59:35 --> Error: Class "App\Models\MenuModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\users\User.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\users\User->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users\User))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\projectuas\\ci4\\public\\index.php')
+INFO - 2024-06-24 17:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
